@@ -26,11 +26,11 @@
       "pre-dist-tag": "internal"
     },
     "version": {
-      "allow-branch": "develop",
+      "allowBranch": "develop",
       "exact": true,
       "conventional-commits": true,
       "conventional-prerelease": true,
-      "message": "chore(release): publish new prerelease versions",
+      "message": "chore(prerelease): publish new prerelease versions",
       "no-git-tag-version": true,
       "preid": "webcom",
       "dist-tag": "latest",
