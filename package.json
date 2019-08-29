@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "commitmsg": "commitlint -e $GIT_PARAMS",
-    "preversion": "lerna version --allow-branch master --conventional-graduate true --message \"chore(release): publish new release versions --no-git-tag-version false"
+    "release": "lerna version --allow-branch master --conventional-graduate true --message \"chore(release): publish new release versions --no-git-tag-version false"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
