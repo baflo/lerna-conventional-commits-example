@@ -31,7 +31,8 @@
       "conventional-commits": true,
       "conventional-prerelease": true,
       "message": "chore(prerelease): publish new prerelease versions",
-      "no-git-tag-version": true,
+      "no-git-tag-version": false,
+      "no-push": false,
       "preid": "webcom",
       "dist-tag": "latest",
       "pre-dist-tag": "internal"
