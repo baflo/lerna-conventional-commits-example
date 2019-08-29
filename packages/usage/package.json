@@ -1,9 +1,9 @@
 {
   "name": "@my-scope/usage",
-  "version": "1.0.1-webcom.2",
+  "version": "1.0.1-webcom.3",
   "dependencies": {
-    "@my-scope/alpha": "1.0.1-webcom.1",
-    "@my-scope/beta": "1.1.0-webcom.0"
+    "@my-scope/alpha": "1.0.1-webcom.2",
+    "@my-scope/beta": "1.1.0-webcom.1"
   },
   "publishConfig": {
     "registry": "http://localhost:4873"
