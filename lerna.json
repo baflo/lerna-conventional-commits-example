@@ -32,7 +32,7 @@
       "conventional-prerelease": true,
       "message": "chore(prerelease): publish new prerelease versions",
       "no-git-tag-version": false,
-      "no-push": false,
+      "no-push": true,
       "preid": "webcom",
       "dist-tag": "latest",
       "pre-dist-tag": "internal"
