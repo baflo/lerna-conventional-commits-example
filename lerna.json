@@ -29,7 +29,7 @@
       "allowBranch": "develop",
       "exact": true,
       "conventional-commits": true,
-      "conventional-prerelease": "*",
+      "conventionalPrerelease": "*",
       "message": "chore(prerelease): publish new prerelease versions",
       "no-git-tag-version": false,
       "no-push": true,
