@@ -28,14 +28,14 @@
     "version": {
       "allowBranch": "develop",
       "exact": true,
-      "conventional-commits": true,
+      "conventionalCommits": true,
       "conventionalPrerelease": "*",
       "message": "chore(prerelease): publish new prerelease versions",
-      "no-git-tag-version": false,
-      "no-push": true,
+      "noGitTagVersion": false,
+      "noPush": true,
       "preid": "webcom",
-      "dist-tag": "latest",
-      "pre-dist-tag": "internal"
+      "distTag": "latest",
+      "preDistTag": "internal"
     }
   }
 }
