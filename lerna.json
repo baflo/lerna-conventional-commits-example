@@ -4,8 +4,37 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
+    "bootstrap": {
+      "ci": false,
+      "nohoist": [],
+      "strict": true
+    },
+    "exec": {
+      "no-bail": false,
+      "no-prefix": false,
+      "stream": true
+    },
+    "run": {
+      "no-bail": false,
+      "no-prefix": false,
+      "stream": true
+    },
     "publish": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "preid": "webcom",
+      "dist-tag": "latest",
+      "pre-dist-tag": "internal"
+    },
+    "version": {
+      "allow-branch": "develop",
+      "exact": true,
+      "conventional-commits": true,
+      "conventional-prerelease": true,
+      "message": "chore(release): publish new prerelease versions",
+      "no-git-tag-version": true,
+      "preid": "webcom",
+      "dist-tag": "latest",
+      "pre-dist-tag": "internal"
     }
   }
 }
