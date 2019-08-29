@@ -15,5 +15,10 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
-  }
+  },
+  "workspaces": [
+    "packages/alpha",
+    "packages/beta",
+    "packages/usage"
+  ]
 }
