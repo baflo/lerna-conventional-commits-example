@@ -30,6 +30,7 @@
       "exact": true,
       "conventionalCommits": true,
       "conventionalPrerelease": "*",
+      "include-merged-tags": true,
       "message": "chore(prerelease): publish new prerelease versions",
       "noGitTagVersion": false,
       "noPush": true,
